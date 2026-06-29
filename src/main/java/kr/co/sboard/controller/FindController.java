@@ -12,22 +12,22 @@ public class FindController {
 
     @GetMapping("/find/changePassword")
     public String changePassword(){
-        return "/find/changePassword";
+        return "find/changePassword";
     }
 
     @GetMapping("/find/password")
     public String password(){
-        return "/find/password";
+        return "find/password";
     }
 
     @GetMapping("/find/resultUserid")
     public String resultUserid(){
-        return "/find/resultUserid";
+        return "find/resultUserid";
     }
 
     @GetMapping("/find/userid")
     public String userid(){
-        return "/find/userid";
+        return "find/userid";
     }
 
 }
