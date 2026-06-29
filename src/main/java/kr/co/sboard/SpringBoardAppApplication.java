@@ -1,13 +1,13 @@
-package org.example.board.springboard;
+package kr.co.sboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBoardApplication {
+public class SpringBoardAppApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBoardApplication.class, args);
+        SpringApplication.run(SpringBoardAppApplication.class, args);
     }
 
 }
