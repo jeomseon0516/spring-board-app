@@ -28,17 +28,17 @@ public class UserController {
 
     @GetMapping("/user/info")
     public String info(){
-        return "/user/info";
+        return "user/info";
     }
 
     @GetMapping("/user/login")
     public String login(){
-        return "/user/login";
+        return "user/login";
     }
 
     @GetMapping("/user/register")
     public String register(){
-        return "/user/register";
+        return "user/register";
     }
 
     @PostMapping("/user/register")
@@ -51,7 +51,7 @@ public class UserController {
         // 등록 서비스 호출
         userService.register(dto);
 
-        return "redirect:/user/login?register=success";
+        return "redirect:user/login?register=success";
     }
 
     @GetMapping("/user/terms")
@@ -61,7 +61,7 @@ public class UserController {
 
         model.addAttribute("termsDTO", termsDTO);
         // 약관 조회 서비스 호출
-        return "/user/terms";
+        return "user/terms";
     }
 
     @ResponseBody
