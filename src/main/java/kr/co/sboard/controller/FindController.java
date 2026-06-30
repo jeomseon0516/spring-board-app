@@ -20,14 +20,14 @@ public class FindController {
         return "find/password";
     }
 
-    @GetMapping("/find/resultUserid")
-    public String resultUserid(){
-        return "find/resultUserid";
+    @GetMapping("/find/resultUserId")
+    public String resultUserId(){
+        return "find/resultUserId";
     }
 
-    @GetMapping("/find/userid")
-    public String userid(){
-        return "find/userid";
+    @GetMapping("/find/userId")
+    public String userId(){
+        return "find/userId";
     }
 
 }

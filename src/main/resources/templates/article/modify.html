@@ -12,7 +12,7 @@
 			<a href="/index.html" class="title">Board Project</a>
 		</h3>
 		<p>
-			<a href="../user/info.html" class="info">홍길동</a>님 반갑습니다.
+			<a th:href="@{/user/info}" class="info">홍길동</a>님 반갑습니다.
 			<a href="#">[로그아웃]</a>
 		</p>
 	</header>
@@ -42,7 +42,7 @@
 				</table>
 				
 				<div>
-					<a href="./view.html" class="btn btnCancel">취소</a>
+					<a th:href="@{/article/view}" class="btn btnCancel">취소</a>
 					<input type="submit" value="작성완료" class="btn btnComplete"/>
 				</div>
 			</form>
