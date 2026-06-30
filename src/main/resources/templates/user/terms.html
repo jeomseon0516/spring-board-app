@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id="wrapper">
-	<th:block th:include="~{/user/_head.html}"></th:block>
+	<th:block th:replace="~{user/_head}"></th:block>
 	<main id="user">
 		<section class="terms">
 			<h2 class="tit">사이트 이용약관</h2>
@@ -37,7 +37,7 @@
 		
 		</section>
 	</main>
-	<th:block th:include="~{/user/_tail.html}"></th:block>
+	<th:block th:replace="~{user/_tail}"></th:block>
 </div>
 </body>
 </html>
