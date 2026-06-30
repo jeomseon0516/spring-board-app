@@ -51,7 +51,7 @@ public class UserController {
         // 등록 서비스 호출
         userService.register(dto);
 
-        return "redirect:user/login?register=success";
+        return "redirect:/user/login?register=success";
     }
 
     @GetMapping("/user/terms")
